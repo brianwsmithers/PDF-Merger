@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="PdfForm">
+  <grid id="27dc6" binding="topPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1266" height="654"/>
+    </constraints>
+    <properties>
+      <background color="-1"/>
+    </properties>
+    <border type="bevel-raised"/>
+    <children>
+      <grid id="5222e" binding="midPanel" layout-manager="GridLayoutManager" row-count="3" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-1"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <grid id="5434c" binding="destinationFolderPanel" layout-manager="FlowLayout" hgap="0" vgap="10" flow-align="3">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-64768"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="8b9ec" class="javax.swing.JLabel" binding="titleLabel">
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <font name="JetBrains Mono" size="36" style="1"/>
+                  <foreground color="-54250"/>
+                  <horizontalAlignment value="0"/>
+                  <horizontalTextPosition value="0"/>
+                  <text value="PDF Merger"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+          <grid id="a8965" binding="topFilePanel" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="0">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-54250"/>
+              <foreground color="-1118482"/>
+            </properties>
+            <border type="etched"/>
+            <children>
+              <grid id="adb36" binding="innerFilePanel" layout-manager="GridLayoutManager" row-count="12" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+                <margin top="10" left="10" bottom="10" right="10"/>
+                <constraints/>
+                <properties>
+                  <background color="-1"/>
+                  <foreground color="-27254"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="89a6c" class="javax.swing.JLabel" binding="fileOneLabel">
+                    <constraints>
+                      <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="Flie 1:"/>
+                    </properties>
+                  </component>
+                  <component id="467bb" class="javax.swing.JLabel" binding="fileTwoLabel">
+                    <constraints>
+                      <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="File 2:"/>
+                    </properties>
+                  </component>
+                  <component id="5d90b" class="javax.swing.JLabel" binding="fileThreeLabel">
+                    <constraints>
+                      <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="Flie 3:"/>
+                    </properties>
+                  </component>
+                  <component id="3a665" class="javax.swing.JLabel" binding="fileFourLabel">
+                    <constraints>
+                      <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <enabled value="true"/>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="File 4:"/>
+                    </properties>
+                  </component>
+                  <component id="a688c" class="javax.swing.JLabel" binding="fileFiveLabel">
+                    <constraints>
+                      <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="File 5:"/>
+                    </properties>
+                  </component>
+                  <component id="b73fa" class="javax.swing.JLabel" binding="fileSixLabel">
+                    <constraints>
+                      <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="File 6:"/>
+                    </properties>
+                  </component>
+                  <component id="d48fe" class="javax.swing.JLabel" binding="fileSevenLabel">
+                    <constraints>
+                      <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="File 7:"/>
+                    </properties>
+                  </component>
+                  <component id="8e0dc" class="javax.swing.JLabel" binding="FileEightLabel">
+                    <constraints>
+                      <grid row="9" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="File 8:"/>
+                    </properties>
+                  </component>
+                  <component id="9ae42" class="javax.swing.JLabel" binding="fileNineLabel">
+                    <constraints>
+                      <grid row="10" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="File 9:"/>
+                    </properties>
+                  </component>
+                  <component id="da18b" class="javax.swing.JLabel" binding="fileTenLabel">
+                    <constraints>
+                      <grid row="11" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <horizontalAlignment value="4"/>
+                      <horizontalTextPosition value="4"/>
+                      <text value="File 10:"/>
+                    </properties>
+                  </component>
+                  <component id="4fcf8" class="javax.swing.JTextField" binding="fileOneTextField">
+                    <constraints>
+                      <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="68df2" class="javax.swing.JTextField" binding="fileTwoTextField">
+                    <constraints>
+                      <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="69f6" class="javax.swing.JTextField" binding="fileThreeTextField">
+                    <constraints>
+                      <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="427c2" class="javax.swing.JTextField" binding="fileFiveTextField">
+                    <constraints>
+                      <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="c1422" class="javax.swing.JTextField" binding="fileSixTextField">
+                    <constraints>
+                      <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="8efec" class="javax.swing.JTextField" binding="fileSevenTextField">
+                    <constraints>
+                      <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="9fb8f" class="javax.swing.JTextField" binding="fileEightTextField">
+                    <constraints>
+                      <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="8bd13" class="javax.swing.JTextField" binding="fileNineTextField">
+                    <constraints>
+                      <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="9c45c" class="javax.swing.JTextField" binding="fileTenTextField">
+                    <constraints>
+                      <grid row="11" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="89f9e" class="javax.swing.JLabel" binding="destinationFolderLabel">
+                    <constraints>
+                      <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <text value="Destination Folder:"/>
+                    </properties>
+                  </component>
+                  <component id="2e387" class="javax.swing.JTextField" binding="fileFourTextField">
+                    <constraints>
+                      <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                  <component id="8bd4f" class="javax.swing.JTextField" binding="newFileNameTextField">
+                    <constraints>
+                      <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                        <preferred-size width="1000" height="-1"/>
+                      </grid>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                  </component>
+                  <component id="de1ab" class="javax.swing.JLabel" binding="newFileNameLabel">
+                    <constraints>
+                      <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                      <text value="New File Name:"/>
+                    </properties>
+                  </component>
+                  <component id="d5263" class="javax.swing.JTextField" binding="destinationFolderTextBox">
+                    <constraints>
+                      <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                    </constraints>
+                    <properties>
+                      <font size="16"/>
+                    </properties>
+                    <clientProperties>
+                      <caretWidth class="java.lang.Integer" value="1"/>
+                    </clientProperties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+          <grid id="c7465" binding="buttonPane" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="10" left="0" bottom="20" right="0"/>
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1"/>
+              <foreground color="-12828863"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="35b7d" class="javax.swing.JButton" binding="convertButton">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <background color="-1"/>
+                  <focusPainted value="false"/>
+                  <font size="16"/>
+                  <foreground color="-64768"/>
+                  <text value="Convert"/>
+                </properties>
+              </component>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <vspacer id="4c85">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+    </children>
+  </grid>
+</form>
